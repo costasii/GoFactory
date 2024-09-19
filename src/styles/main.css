@@ -1,3 +1,15 @@
+@media screen and (max-width: 768px) {
+    body { font-size: 2vw; }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    body { font-size: 1vw; }
+}
+
+@media screen and (min-width: 1201px) {
+    body { font-size: 1vw; }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,10 +33,10 @@ body, html {
     background-attachment: fixed; /* Keeps the background fixed during scrolling */
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     body { font-size: 16px; }
     
-}
+} */
 
 .container {
     background: url('../images/background.png') no-repeat center center fixed;
@@ -34,7 +46,7 @@ body, html {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    color: #de724dff;
+    color: #ce1818;
     text-align: center;
     position: relative;
     padding-bottom: 50px;
